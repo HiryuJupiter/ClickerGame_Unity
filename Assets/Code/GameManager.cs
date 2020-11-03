@@ -100,17 +100,17 @@ public class GameManager : MonoBehaviour
     void UpdateHUD_TotalGold ()
     {
         Debug.Log("uiManager " + uiManager);
-        uiManager.TypeTotalGold(TotalGold);
+        uiManager.SetTotalGold(TotalGold);
     }
 
     void UpdateHUD_GoldPerClick()
     {
-        uiManager.TypeGoldPerClick(TotalGoldPerClick);
+        uiManager.SetGoldPerClick(TotalGoldPerClick);
     }
 
     void UpdateHUD_GoldPerSec()
     {
-        uiManager.TypeGoldPerSec(TotalGoldPerSec);
+        uiManager.SetGoldPerSec(TotalGoldPerSec);
     }
     #endregion
 }

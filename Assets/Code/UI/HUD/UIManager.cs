@@ -22,17 +22,17 @@ public class UIManager : MonoBehaviour
     }
 
     #region Set HUD texts
-    public void TypeTotalGold(int amount)
+    public void SetTotalGold(int amount)
     {
         totalGold.text = amount.ToString();
     }
 
-    public void TypeGoldPerClick(int amount)
+    public void SetGoldPerClick(int amount)
     {
         clickerButton.SetTextAmount(amount);
     }
 
-    public void TypeGoldPerSec(int amount)
+    public void SetGoldPerSec(int amount)
     {
         goldPerSec.text = amount.ToString();
     }
